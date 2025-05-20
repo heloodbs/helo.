@@ -2,11 +2,11 @@
 
 /* Variáveis */
 :root {
-    --primary-color: #c71d5e;
+    --primary-color: #ae3255;
     --secondary-color: #f50072;
-    --text-color: #fa76bf;
-    --background-color: #fffefd;
-    --button-hover: #012E40;
+    --text-color: #952d45;
+    --background-color: #a10f53;
+    --button-hover: #67003c;
     --font-body: "Chocolate Classical Sans", serif;
     --font-titulo: "Rakkas", serif;
 }
@@ -40,7 +40,7 @@ img {
 /* Cabeçalho */
 header  {
     background: var(--primary-color);
-    color: white;
+    color: rgb(255, 157, 211);
     text-align: center;
     padding: 20px;
 }
@@ -61,7 +61,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(228, 161, 161);
     text-decoration; none;
     font-weight: bold;
 }
@@ -72,12 +72,12 @@ nav ul li a:hover{
 
 /*Seções principais */
 .conteudo {
-    background: white;
+    background: rgb(207, 146, 170);
     padding: 20px;
     margin: 20px auto;
     width: 80%;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.468);
 }
 
 /* Listas /
